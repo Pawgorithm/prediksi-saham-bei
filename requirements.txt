@@ -3,5 +3,5 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow-cpu
 statsmodels
+tensorflow==2.15.1
