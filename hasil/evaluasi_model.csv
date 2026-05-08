@@ -1,0 +1,16 @@
+Ticker,Sektor,Model,RMSE,MAE,MAPE (%),R²,Epoch,Waktu (s)
+BBCA.JK,Perbankan,Baseline MA-7,159.38,116.21,-,-,-,-
+BBCA.JK,Perbankan,Simple RNN,277.74,197.79,2.55,0.8905,17,31.5
+BBCA.JK,Perbankan,LSTM,353.15,261.67,3.31,0.823,10,24.6
+TLKM.JK,Telekomunikasi,Baseline MA-7,85.11,63.36,-,-,-,-
+TLKM.JK,Telekomunikasi,Simple RNN,385.51,349.49,11.61,-0.3281,10,20.9
+TLKM.JK,Telekomunikasi,LSTM,177.62,148.0,4.86,0.7181,10,24.0
+ADRO.JK,Energi/Tambang,Baseline MA-7,98.1,60.82,-,-,-,-
+ADRO.JK,Energi/Tambang,Simple RNN,102.84,76.16,3.79,0.8575,19,32.8
+ADRO.JK,Energi/Tambang,LSTM,83.72,64.46,3.19,0.9056,38,77.9
+GOTO.JK,Teknologi,Baseline MA-7,7.01,4.01,-,-,-,-
+GOTO.JK,Teknologi,Simple RNN,5.47,4.53,7.59,0.0486,11,16.4
+GOTO.JK,Teknologi,LSTM,2.75,2.15,3.6,0.7591,18,25.8
+BMRI.JK,Perbankan,Baseline MA-7,123.53,88.6,-,-,-,-
+BMRI.JK,Perbankan,Simple RNN,481.39,449.26,9.28,-1.8929,10,20.0
+BMRI.JK,Perbankan,LSTM,208.88,165.71,3.39,0.4554,10,22.7
